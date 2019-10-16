@@ -52,6 +52,19 @@ function getEventTarget(event) {
     // || event.srcElement;
 }
 
+//testing
+// function listEvent() {
+//     for (var i = 0; i < listItems.length; i++) {
+//         listItems[i].addEventListener("click", toggleDone);
+//     }
+// }
+// function toggleDone(event) {
+//     event = event || window.event;
+//     event.target.classList.toggle("done");
+// }
+// listEvent();
+
+
 //adds the done class to the child items of UL
 ul.onclick = function (event) {
     var target = getEventTarget(event);
